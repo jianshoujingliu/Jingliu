@@ -1,0 +1,27 @@
+-
+  feature: 登陆模块
+  story: 接口测试
+  title: 登陆验证
+  request:
+    method: post
+    url: http://127.0.0.1/api/mgr/signin
+    params:
+      username: 'byhy'
+      password: 88888888
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    validate:
+
+-
+  feature: 登陆模块
+  story: 接口测试
+  title: 登陆验证
+  request:
+    method: post
+    url: http://127.0.0.1/api/mgr/signin
+    params:
+      username: 'byhy'
+      password: 9999999
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    validate:

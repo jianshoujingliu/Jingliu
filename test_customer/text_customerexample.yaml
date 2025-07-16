@@ -1,0 +1,16 @@
+-
+  feature: 查看模块
+  story: 接口测试
+  title: 查看客户
+  request:
+    method: get
+    url: http://127.0.0.1/api/mgr/customers
+    params:
+      action: 'list_customer'
+      pagesize: 5
+      pagenum: 1
+      keywords: ''
+    headers:
+      Content-Type: application/json
+      Cookie:
+    validate:

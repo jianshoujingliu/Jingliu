@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5","test_add_customers[casedata0]","test_customer","Fri Jul 11 16:22:40 CST 2025","passed","Fri Jul 11 16:22:40 CST 2025","Test_customer","test_customer","",""
+"","6","test_delete_customer[casedata0]","test_customer","Fri Jul 11 16:22:40 CST 2025","passed","Fri Jul 11 16:22:40 CST 2025","Test_customer","test_customer","",""
+"","4","test_post_signin[casedata0]","test_logintest","Fri Jul 11 16:22:40 CST 2025","passed","Fri Jul 11 16:22:40 CST 2025","Test_signin","test_signin","",""
+"","3","test_post_signin[casedata1]","test_logintest","Fri Jul 11 16:22:40 CST 2025","failed","Fri Jul 11 16:22:40 CST 2025","Test_signin","test_signin","",""
+"","13","test_put_customer[casedata0]","test_customer","Fri Jul 11 16:22:40 CST 2025","passed","Fri Jul 11 16:22:40 CST 2025","Test_customer","test_customer","",""
+"","9","test_showcustomer[casedata0]","test_customer","Fri Jul 11 16:22:40 CST 2025","passed","Fri Jul 11 16:22:40 CST 2025","Test_customer","test_customer","",""

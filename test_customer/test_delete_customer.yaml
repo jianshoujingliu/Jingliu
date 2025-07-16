@@ -1,0 +1,12 @@
+-
+  feature: 客户模块
+  story: 接口测试
+  title: 删除客户信息
+  request:
+    method: delete
+    url: http://127.0.0.1/api/mgr/customers
+    json:
+      action: 'del_customer'
+    headers:
+      Content-Type: application/json
+    validate:

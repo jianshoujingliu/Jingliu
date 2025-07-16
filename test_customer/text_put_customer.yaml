@@ -1,0 +1,16 @@
+-
+  feature: 客户模块
+  story: 接口测试
+  title: 修改客户信息
+  request:
+    method: put
+    url: http://127.0.0.1/api/mgr/customers
+    json:
+      action: 'modify_customer'
+      newdata:
+        name: '武汉市桥北医院'
+        phonenumber: '13345678888'
+        address: '武汉市桥北医院北路'
+    headers:
+      Content-Type: application/json
+    validate:
